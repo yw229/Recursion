@@ -14,6 +14,7 @@ public class MakeCoinChange
                 break ;
             case 5 : 
                 next_demon = 1 ;
+                break ;
             case 1 : 
                 return 1 ;
                 
