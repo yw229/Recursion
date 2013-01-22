@@ -4,8 +4,7 @@ package Project;
  * DP classic problem 
  * LCs longest common subsequence c[i,j], we can recursively get
  * c[i,j] = { 0   if i=0 or j = 0 ;
- * 			  c[i-1,j-1] if i,j > 0 and Xi=Yj ;
- *           Max( c[i-1,j] , c[i,j-1] ) if(i,j>0 and Xi!=Yi) 
+ *       Max( c[i-1,j] , c[i,j-1] ) if(i,j>0 and Xi!=Yi) 
  *           }
  * 
  * */
