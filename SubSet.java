@@ -6,6 +6,7 @@ public class SubSet
     public SubSet(int[] A)
     {
         this.Array = A ;
+        Arrays.sort(A) ; // sort array first, the result would be non-desc
     }
     public void findSubset()
     {
